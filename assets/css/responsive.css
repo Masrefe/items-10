@@ -1,0 +1,91 @@
+/*******************************
+	All Responsive Code
+*******************************/
+/* Medium layout: 1200px, */
+
+@media only screen and (min-width:992px) and (max-width: 1200px) {
+.single-about-content h3 {
+	padding-left: 48px;
+}
+.contact-form input {
+	margin-right: 11px;
+}
+
+}
+
+/* Tablet layout: 768px, */
+@media only screen and (min-width:768px) and (max-width: 991px) {
+.single-about-content {
+	margin-bottom: 60px;
+}
+.contact-form input {
+	margin-right: 10px;
+}
+.clients-logo {
+	margin-bottom: 50px;
+}
+.heder-logo {
+  padding-top: 15px;
+}
+.nav-area {
+	padding: 0 0;
+}
+}
+
+/* Mobile layout: 320px, */
+@media only screen and (max-width:767px)  {
+.heder-logo {
+  padding-top: 15px;
+}
+.nav-area {
+	padding: 0 0;
+}
+.header-content img {
+	width: 50px;
+	margin-bottom: 10px;
+}
+.header-content h2 {
+	font-size: 20px;
+}
+.header-content p {
+	font-size: 13px;
+}
+.header-content .scroll-icon {
+	margin-top: 18px;
+}
+.scroll-icon a i.fa {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+}
+.box-btn {
+	padding: 5px 15px;
+	margin-top: 3px;
+}
+.single-portfolio img {
+	min-width: 100%;
+}
+.clients-logo {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.contact-form input {
+	margin-right: 0;
+}
+.footer-area p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.footer-menu {
+  text-align: center;
+}
+.header-content h2 {
+	font-size: 25px;
+}
+
+
+
+/* wide mobile layout: 480px, */
+@media only screen and (min-width:480px) and (max-width: 767px) {
+
+}
